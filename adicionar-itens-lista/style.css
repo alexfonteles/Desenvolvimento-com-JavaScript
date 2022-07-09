@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(2, 2, 32);
+    color: white;
+    font: 14pt tahoma;
+}
+
+button.remover{
+    position: absolute;
+    right: 100px;
+}
+ul li.naoRealizada{
+    list-style-type: '☐';
+    cursor: pointer;
+    text-indent: 10px;
+}
+ul li.realizada{
+    list-style-type: '☑';
+    cursor: pointer;
+    text-indent: 10px;
+    text-decoration: line-through;
+}
